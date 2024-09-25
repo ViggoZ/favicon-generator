@@ -1,0 +1,50 @@
+# 依赖目录
+/node_modules
+
+# Next.js 构建输出
+/.next
+/out
+
+# 生产环境构建文件
+/build
+
+# 调试日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 本地环境文件
+.env*.local
+
+# 验证文件
+.vercel
+
+# TypeScript 缓存
+*.tsbuildinfo
+next-env.d.ts
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE/编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+*.temp
+
+# 日志文件
+*.log
+
+# 测试覆盖率报告
+/coverage
+
+# 用户上传的文件（如果有的话）
+/uploads
+
+# ZIP文件（如果您不想将生成的ZIP文件包含在版本控制中）
+*.zip
